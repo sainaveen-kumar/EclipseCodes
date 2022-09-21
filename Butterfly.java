@@ -7,11 +7,11 @@ public class Butterfly {
 		int n=6;
 		for (int i=1;i<n+1;i++)
 		{
-			System.out.println("*".repeat(i)+" ".repeat(11-2*i)+"*".repeat(i));
+			System.out.println("*".repeat(i)+" ".repeat((n-i)*2)+"*".repeat(i));
 		}
 		for (int i=n;i>0;i--)
 		{
-			System.out.println("*".repeat(i-1)+" ".repeat(6-i)+"*".repeat(i-1));
+			System.out.println("*".repeat(i)+" ".repeat((n-i)*2)+"*".repeat(i));
 		}
 		}
 
